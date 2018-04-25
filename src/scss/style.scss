@@ -1,0 +1,69 @@
+$primary: #ae0404;
+$primary-overlay: rgba(94, 47, 3, 0.7);
+
+body{
+    margin-top: 105px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: #fff;
+    h2{
+        color: $primary;
+    }
+    .nav-item{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+}
+
+#show{
+    position: relative;
+    background: url('../img/note.jpg');
+    min-height: 600px;
+
+    .primary-overlay{
+        background: $primary-overlay;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .primary-overlay img{
+        position: absolute;
+        left: 200px;
+        top: 150px;
+    }
+    
+}
+
+.info-header{
+    width: 50%;
+    border-bottom: 1p solid grey;
+    margin: auto;
+}
+
+#authors{
+    img{
+        margin-top: -50px;
+    }
+    .fa{
+        font-size: 24px;
+    }
+    .card:hover{
+        background: $primary;
+        color: #fff;
+        .fa{
+            color: #fff;
+        }
+    }
+}
+
+#main-footer{
+    .fa-github:hover{
+        color: aqua;
+        font-size: 25px;
+    }
+}
